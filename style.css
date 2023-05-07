@@ -6,4 +6,73 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  color: white;
+  overflow: hidden;
+  background: #000000;
+  width: 100vw;
+  height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+ul{
+  list-style: none;
+}
+
+header {
+  padding: 11px 40px; 
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+header nav{
+  display: flex;
+  gap: 50px;
+  text-transform: uppercase;
+}
+
+header .logo img{
+  width: 80px;
+  right: 50px;
+}
+
+header nav ul{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+header nav ul a{
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+header .avatar{
+  display: flex;
+  gap: 16px;
+  align-items: center ;
+}
+
+/*video*/
+video{
+  position: fixed;
+  top: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: -1;
+  opacity: 50%;
+}
+
+/*main*/
+
+main{
+  margin-top: 400px;
+  padding: 0 40px;
 }
