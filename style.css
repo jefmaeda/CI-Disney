@@ -106,3 +106,32 @@ section{
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+@media (max-width: 1350px){
+  section{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .card img{
+    width: 100%;
+  }
+}
+
+/*scrollbar custom*/
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #fff transparent;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 3px solid transparent;
+  }
