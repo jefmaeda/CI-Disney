@@ -108,6 +108,18 @@ section{
 }
 
 @media (max-width: 1350px){
+  nav .hide{
+    display: none;
+  }
+
+  header .avatar span{
+    display: none;
+  }
+
+  header li img{
+    width: 30px;
+  }
+
   section{
     grid-template-columns: repeat(2,1fr);
   }
