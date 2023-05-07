@@ -17,7 +17,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🌍 Acesse o site:
 
-- [Clique aqui para visualizar](https://jefmaeda.github.io/Cl-Disney/)
+- [Clique aqui para visualizar](https://jefmaeda.github.io/CI-Disney/)
 
 ---
 
